@@ -17,14 +17,14 @@ export function AuroraBackgroundDemo() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
-        <div className="text-3xl md:text-7xl font-bold dark:text-green-700 text-center">
-         REPROMEDICA
+        <div className="text-3xl md:text-7xl font-bold dark:text-white-700 text-center">
+         TASKS MANAGEMENT
         </div>
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
-        Importadores y Distribuidores de productos de productos cosmeticos e insumos médicos y quirúrgicos.
+        Take control of your projects.
         </div>
         <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
-          Contactanos!
+          Contact us!
         </button>
       </motion.div>
     </AuroraBackground>
