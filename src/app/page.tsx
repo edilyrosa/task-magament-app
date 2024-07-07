@@ -1,10 +1,10 @@
 import { AuroraBackgroundDemo } from "../../components/ui/AuroraBackgroundDemo";
-import Hero from "@/app/components/Hero"
+import Header from "@/components/Header"
 export default function Home() {
   return (
   
     <main>
-        <Hero />
+        <Header />
       <AuroraBackgroundDemo/>
     </main>
   

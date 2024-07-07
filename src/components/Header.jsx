@@ -2,13 +2,13 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="bg-[#ff3a9c] shadow-md text-black py-8 sticky top-0 z-10">
+    <header className="bg-[#140539] shadow-md text-black py-8 sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap justify-between items-center px-4 md:px-0">
         <div className="flex items-center space-x-4 w-full md:w-auto justify-center md:justify-start">
           <Link href={"/"}>
-            <img className="h-10 w-auto" src="/NESS-logo.jpg" alt="Logo" />
+            <img className="h-10 w-auto" src="/logo-edy.png" alt="Logo" />
           </Link>
-          <h1 className="text-xl font-extrabold text-white">Confecciones NESS</h1>
+          <h1 className="text-xl font-extrabold text-white">Tasks Management</h1>
         </div>
         <nav className="w-full md:w-auto">
           <ul className="flex flex-wrap justify-center md:justify-end space-x-10">
